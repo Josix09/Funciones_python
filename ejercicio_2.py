@@ -10,7 +10,7 @@ def mostrarnombre(cadena, n):
 
 #entrada
 
-cadena =int(input("digite la cadena a mostrar: "))
+cadena =(input("digite la cadena a mostrar: "))
 n=int(input("digite el numero de veces que quiere mostrar la cadena: "))
 
 #procesamiento
@@ -18,7 +18,7 @@ def mostrarcadena(cadena, n):
     pass
 
 
-for i in range(1,n):
+for i in range(1,n+1):
     print(f"{i}, {cadena}")
 
 
